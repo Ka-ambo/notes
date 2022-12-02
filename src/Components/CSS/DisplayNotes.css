@@ -1,0 +1,28 @@
+.note-bg{
+    text-align: left;
+    padding: 1vw;
+    box-shadow: 0 2px 5px #ccc;
+    border-radius: 7px;
+    margin:3vh 0 3vh 4%;
+    position: relative;
+    width: 11vw;
+    min-height: 1h;
+    
+}
+
+.note-title{
+    font-size: 1.2em;
+    font-weight: 500;
+    color:black;
+    margin-bottom: 1em;
+}
+.note-content{
+    margin: 0;
+}
+.delete-note{
+    position:absolute;
+    font-size: 100%;
+    right:3%;
+    top:4%;
+    color: #f5ba13;
+}

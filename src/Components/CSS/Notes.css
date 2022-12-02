@@ -1,0 +1,44 @@
+.notes{
+    display: flex;
+    flex-direction: column;
+    padding: 2vw;
+    box-shadow: 0 2px 5px #ccc;
+    border-radius: 7px;
+    margin-left: 4%;
+    position: relative;
+}
+.title{
+    padding: 4px;
+    border: none;
+    font-size: 1.2em;
+    font-weight: 500;
+    color:black;
+    outline: none;
+    
+}
+hr{
+    height:0.7px;
+    width:100%;
+    background-color:gray;
+    outline: none;
+    border:none;
+    opacity: 50%;
+    box-shadow: 0 2px 5px #ccc;
+}
+.content{
+    padding: 2px 4px;
+    border: none;
+    outline: none;
+    resize: none;
+    min-height: 5vw;
+}
+.notes button{
+    position: absolute;
+    right:1.5%;
+    bottom:1.5%;
+    padding:2px 7px;
+    border:none;
+    background-color: white;
+    color:#f5ba13;
+    font-size: 1.7vw;
+}
